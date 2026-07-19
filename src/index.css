@@ -1,0 +1,6 @@
+/* KAD Calculator — global stylesheet
+ * All design tokens live in src/theme/tokens.css (single source of truth).
+ * This file only wires Tailwind + the token layer together.
+ */
+@import "tailwindcss";
+@import "./theme/tokens.css";
